@@ -1,0 +1,5 @@
+  File "/home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller/robot_controller.py", line 23
+    front_sector = ranges[(5*len(ranges)//6:)+(:len(ranges)//6)]
+                                           ^
+SyntaxError: invalid syntax
+

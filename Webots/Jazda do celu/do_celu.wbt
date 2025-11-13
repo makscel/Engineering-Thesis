@@ -1,0 +1,41 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/k-team/khepera3/protos/Khepera3.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5330082601452467 0.5237616560332577 0.6645117924357975 1.984657986950576
+  position 0.04589922163731221 -0.6476375886935472 3.0742647170336244
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+Khepera3 {
+  hidden position_0_0 -1.8891227819201916e-07
+  hidden position_0_1 -1.8891211703194563e-07
+  hidden linearVelocity_0 1.8121013588498636e-07 9.773368470649157e-12 1.5194426151481433e-05
+  hidden angularVelocity_0 -3.392398723833384e-10 7.12694069520789e-06 -5.520496741832653e-12
+  hidden rotation_1 0.577350305545805 -0.5773503055458116 -0.5773501964772538 2.094395109068558
+  hidden linearVelocity_1 1.1670930180792366e-07 9.541500629092038e-10 1.5299165941883156e-05
+  hidden angularVelocity_1 8.821188214991503e-10 5.226604775425498e-06 5.130600374719973e-10
+  hidden rotation_2 0.577350305545774 -0.5773503055457806 -0.5773501964773159 2.094395109068465
+  hidden linearVelocity_2 1.1670883933918366e-07 -9.396809664587126e-10 1.5299196411022412e-05
+  hidden angularVelocity_2 -1.559097724980556e-09 5.2266061484242745e-06 -5.237074385050222e-10
+  translation -3.6212820766646364e-06 -3.453590542397844e-10 -0.0035182251318176642
+  rotation -9.570106779484657e-05 0.9999999954206443 -1.295385008923723e-07 0.0010986589815914333
+  controller "docelu_final"
+  turretSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[1.627s] Invoking command in '/home/ros2/ros2_ws/src/robot_controller': PYTHONPATH=/home/ros2/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ros2/ros2_ws/build/robot_controller/build install --record /home/ros2/ros2_ws/build/robot_controller/install.log --install-scripts $base/lib/robot_controller --single-version-externally-managed
+[2.161s] running egg_info
+[2.162s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[2.163s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[2.163s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[2.164s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[2.164s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[2.271s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[2.274s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[2.275s] running build
+[2.275s] running build_py
+[2.276s] copying robot_controller/robot_controller.py -> /home/ros2/ros2_ws/build/robot_controller/build/lib/robot_controller
+[2.277s] running install
+[2.279s] running install_lib
+[2.281s] copying /home/ros2/ros2_ws/build/robot_controller/build/lib/robot_controller/robot_controller.py -> /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller
+[2.283s] byte-compiling /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller/robot_controller.py to robot_controller.cpython-38.pyc
+[2.287s]   File "/home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller/robot_controller.py", line 23
+[2.287s]     front_sector = ranges[(5*len(ranges)//6:)+(:len(ranges)//6)]
+[2.288s]                                            ^
+[2.288s] SyntaxError: invalid syntax
+[2.288s] 
+[2.289s] running install_egg_info
+[2.293s] removing '/home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[2.294s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller-0.0.0-py3.8.egg-info
+[2.296s] running install_scripts
+[2.340s] Installing robot_controller script to /home/ros2/ros2_ws/install/robot_controller/lib/robot_controller
+[2.341s] writing list of installed files to '/home/ros2/ros2_ws/build/robot_controller/install.log'
+[2.390s] Invoked command in '/home/ros2/ros2_ws/src/robot_controller' returned '0': PYTHONPATH=/home/ros2/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ros2/ros2_ws/build/robot_controller/build install --record /home/ros2/ros2_ws/build/robot_controller/install.log --install-scripts $base/lib/robot_controller --single-version-externally-managed

@@ -1,0 +1,150 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/k-team/khepera3/protos/Khepera3.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Dog.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.44205254468138294 -0.007512200072185734 -0.8969576994433959 3.172069528685039
+  position 2.8131787642407895 0.1961752564264286 2.4090645960090216
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.8 0 0
+  floorSize 2.5 2.5
+}
+Solid {
+  translation 0.426801 -0.39810000000208223 0.21274486928883654
+  rotation 0.9083996646356911 0.4174338458906038 0.023643891277531883 3.0851900000279096
+  children [
+    DEF pilka Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 1
+        roughness 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.07
+      }
+    }
+  ]
+  boundingObject USE pilka
+  physics Physics {
+  }
+}
+WoodenBox {
+  translation 0.87 -0.85 0.07
+  rotation 0 0 1 -0.261795307179586
+  name "wooden box(8)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 1.73 -0.16 0.07
+  rotation 0 0 1 1.0472
+  name "wooden box(12)"
+  size 0.15 0.15 0.15
+}
+Khepera3 {
+  hidden position_0_0 312.1437692293991
+  hidden position_0_1 402.64192599940765
+  hidden rotation_1 0.6982402659286944 -0.6982403165387788 0.15786383815064167 3.4547360507264093
+  hidden rotation_2 0.44892393091150196 -0.44892391177591473 -0.7726154448953086 1.825955398320089
+  translation 1.3482612547911887 0.5073034938787462 -0.003516928002221878
+  rotation 0.0007592427807995426 -3.11249910139254e-05 0.9999997112907758 1.66725
+  controller "LR_2"
+  controllerArgs [
+    ""
+  ]
+}
+WoodenBox {
+  translation 0.37 -0.47 0.07
+  rotation 0 0 1 0.261799
+  name "wooden box(1)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.08 -0.09 0.07
+  name "wooden box(9)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.61 0.23 0.07
+  rotation 0 0 1 -0.523595307179586
+  name "wooden box(11)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 1.09748 0.514345 0.07
+  rotation 0 0 1 -0.523595307179586
+  name "wooden box(13)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.92 -0.22 0.07
+  name "wooden box(10)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 1.27 -0.03 0.07
+  name "wooden box(2)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.12752 0.98 0.07
+  rotation 0 0 1 -0.523595307179586
+  name "wooden box(3)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.58 0.61 0.07
+  name "wooden box(16)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.920207 0.960207 0.07
+  rotation 0 0 1 0.785398
+  name "wooden box(15)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.05 -0.94 0.07
+  rotation 0 0 1 -1.047195307179586
+  name "wooden box(4)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 1.7 -0.8532 0.07
+  rotation 0 0 1 0.523599
+  name "wooden box(5)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 1.56 0.87 0.07
+  name "wooden box(6)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 1.72 0.4 0.07
+  rotation 0 0 1 -0.261795307179586
+  name "wooden box(14)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation -0.03 0.6 0.07
+  rotation 0 0 1 0.523599
+  name "wooden box(7)"
+  size 0.15 0.15 0.15
+}
+Dog {
+  translation 1.38181 -0.573568 8.24556e-07
+  rotation 1.92564e-07 7.1866e-07 1 -2.6179953071795863
+  scale 0.3
+}

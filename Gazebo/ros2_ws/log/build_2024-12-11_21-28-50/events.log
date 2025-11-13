@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.000317] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.099056] (-) TimerEvent: {}
+[0.200463] (-) TimerEvent: {}
+[0.302034] (-) TimerEvent: {}
+[0.403578] (-) TimerEvent: {}
+[0.504153] (-) TimerEvent: {}
+[0.604777] (-) TimerEvent: {}
+[0.705350] (-) TimerEvent: {}
+[0.805929] (-) TimerEvent: {}
+[0.906450] (-) TimerEvent: {}
+[1.007057] (-) TimerEvent: {}
+[1.107605] (-) TimerEvent: {}
+[1.208231] (-) TimerEvent: {}
+[1.308962] (-) TimerEvent: {}
+[1.410558] (-) TimerEvent: {}
+[1.513169] (-) TimerEvent: {}
+[1.614643] (-) TimerEvent: {}
+[1.715157] (-) TimerEvent: {}
+[1.815902] (-) TimerEvent: {}
+[1.917220] (-) TimerEvent: {}
+[2.017799] (-) TimerEvent: {}
+[2.118524] (-) TimerEvent: {}
+[2.219026] (-) TimerEvent: {}
+[2.319594] (-) TimerEvent: {}
+[2.420408] (-) TimerEvent: {}
+[2.521730] (-) TimerEvent: {}
+[2.578003] (robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller', 'build', '--build-base', '/home/ros2/ros2_ws/build/robot_controller/build', 'install', '--record', '/home/ros2/ros2_ws/build/robot_controller/install.log', '--install-scripts', '$base/lib/robot_controller', '--single-version-externally-managed'], 'cwd': '/home/ros2/ros2_ws/src/robot_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'LC_TIME': 'pl_PL.UTF-8', 'SSH_AGENT_PID': '1134', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2/ros2_ws/src/robot_controller', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'MANAGERPID': '998', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ros2', 'JOURNAL_STREAM': '8:31372', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models::/usr/share/gazebo-11/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/bin:/usr/bin', 'SESSION_MANAGER': 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1171,unix/ros2-VirtualBox:/tmp/.ICE-unix/1171', 'INVOCATION_ID': '64aabbb3e2524cbdb3dfe980a9074ee7', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c62c945f_cb1c_4b63_adb6_7dc02519389e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2/ros2_ws/build/robot_controller', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.621923] (-) TimerEvent: {}
+[2.722874] (-) TimerEvent: {}
+[2.823259] (-) TimerEvent: {}
+[2.923746] (-) TimerEvent: {}
+[3.024204] (-) TimerEvent: {}
+[3.102847] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.103971] (robot_controller) StdoutLine: {'line': b'creating ../../build/robot_controller/robot_controller.egg-info\n'}
+[3.104391] (robot_controller) StdoutLine: {'line': b'writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO\n'}
+[3.104907] (robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt\n'}
+[3.105242] (robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt\n'}
+[3.105570] (robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt\n'}
+[3.105973] (robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt\n'}
+[3.125187] (-) TimerEvent: {}
+[3.143103] (robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[3.225338] (-) TimerEvent: {}
+[3.243095] (robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[3.245240] (robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[3.245865] (robot_controller) StdoutLine: {'line': b'running build\n'}
+[3.246053] (robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.246547] (robot_controller) StdoutLine: {'line': b'creating /home/ros2/ros2_ws/build/robot_controller/build\n'}
+[3.246877] (robot_controller) StdoutLine: {'line': b'creating /home/ros2/ros2_ws/build/robot_controller/build/lib\n'}
+[3.247271] (robot_controller) StdoutLine: {'line': b'creating /home/ros2/ros2_ws/build/robot_controller/build/lib/robot_controller\n'}
+[3.247669] (robot_controller) StdoutLine: {'line': b'copying robot_controller/__init__.py -> /home/ros2/ros2_ws/build/robot_controller/build/lib/robot_controller\n'}
+[3.248120] (robot_controller) StdoutLine: {'line': b'copying robot_controller/robot_controller.py -> /home/ros2/ros2_ws/build/robot_controller/build/lib/robot_controller\n'}
+[3.249066] (robot_controller) StdoutLine: {'line': b'running install\n'}
+[3.250832] (robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.252950] (robot_controller) StdoutLine: {'line': b'creating /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller\n'}
+[3.253405] (robot_controller) StdoutLine: {'line': b'copying /home/ros2/ros2_ws/build/robot_controller/build/lib/robot_controller/robot_controller.py -> /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller\n'}
+[3.253844] (robot_controller) StdoutLine: {'line': b'copying /home/ros2/ros2_ws/build/robot_controller/build/lib/robot_controller/__init__.py -> /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller\n'}
+[3.255054] (robot_controller) StdoutLine: {'line': b'byte-compiling /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller/robot_controller.py to robot_controller.cpython-38.pyc\n'}
+[3.259701] (robot_controller) StdoutLine: {'line': b'byte-compiling /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller/__init__.py to __init__.cpython-38.pyc\n'}
+[3.260258] (robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.265508] (robot_controller) StdoutLine: {'line': b'Copying ../../build/robot_controller/robot_controller.egg-info to /home/ros2/ros2_ws/install/robot_controller/lib/python3.8/site-packages/robot_controller-0.0.0-py3.8.egg-info\n'}
+[3.266220] (robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.305792] (robot_controller) StdoutLine: {'line': b'Installing robot_controller script to /home/ros2/ros2_ws/install/robot_controller/lib/robot_controller\n'}
+[3.306835] (robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/ros2_ws/build/robot_controller/install.log'\n"}
+[3.325475] (-) TimerEvent: {}
+[3.348013] (robot_controller) CommandEnded: {'returncode': 0}
+[3.426030] (-) TimerEvent: {}
+[3.526606] (-) TimerEvent: {}
+[3.533225] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[3.534598] (-) EventReactorShutdown: {}
